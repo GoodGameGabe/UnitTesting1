@@ -1,5 +1,4 @@
 function link(a,b,c) {
-    var x = [a, b, c]
-  return x[1];
+  return a+b+c;
 }
 module.exports = link;

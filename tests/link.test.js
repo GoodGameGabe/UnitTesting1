@@ -1,5 +1,5 @@
 const link = require('../src/link');
 
-test('got the second item lol', () => {
-  expect(link('lmao', 'lol', 'ayy')).toBe('lol');
+test('text concatted correctly', () => {
+  expect(link('www.', 'cartoon', '.com')).toBe('www.cartoon.com');
 });
